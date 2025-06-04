@@ -7,6 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 
 
@@ -85,6 +86,7 @@ ul li a:hover::before {
 }
 
 .icons {
+  display: flex;
  gap: 33px;
 }
 
@@ -94,7 +96,7 @@ ul li a:hover::before {
 }
 
 .icons a {
-  font-size: 22px;
+  font-size: 18px;
   color: #000;
 }
 /* ======================nav bar part end ===================== */
@@ -143,7 +145,6 @@ ul li a:hover::before {
   font-weight: 400;
   color: #000;
   font-family: "Adamina", serif;
-  margin-bottom: 52px;
 }
 
 .textBlombarg {
@@ -169,3 +170,136 @@ ul li a:hover::before {
   height: 766px;
 }
 
+/* ================== plant sections end ==================== */
+
+/* ==============learn more section part strat====================  */
+
+#learnMore{
+  margin-top: 83px;
+}
+.textBothe {
+  display: flex;
+  gap: 135px;
+}
+
+.textOne h3 {
+  width: 453px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Abel", sans-serif;
+}
+
+
+.textTwo h2 {
+  width: 627px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Lora", serif;
+  margin-bottom: 66px;
+}
+
+.learnMore {
+  display: flex;
+  gap: 9px;
+}
+
+.learnMore a {
+    font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Adamina", serif;
+  margin-bottom: 446px;
+}
+/* ==================learn more section end ================ */
+
+
+
+/* =================together section part start ================ */
+
+#together {
+  background-color: #EDEDED;
+  height: 436px;
+  position: relative;
+}
+
+.textImg img {
+  height: 572px;
+  position: relative;
+  top: -312px;
+}
+
+.textImg h2 {
+  width: 468px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Lora", serif;
+  position: absolute;
+  bottom: 0;
+  left: 468px;
+}
+
+/* =================together section part end ================ */
+
+/* ================our shop section part start================== */
+
+#ourShop {
+  margin-top: 114px;
+}
+
+.ourShop_textPart h2 {
+    width: 130px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Adamina", serif;
+  margin-bottom: 34px;
+}
+
+.ourShop_textPart h3 {
+    width: 526px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Lora", serif;
+
+}
+
+.ourShop_textPart button {
+  width: 134px;
+  height: 42px;
+  background-color: #010101;
+  border-radius: 28px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Adamina", serif;
+  margin-bottom: 50px;
+}
+
+.picture_andText img {
+  width: 368px;
+  height: 577px;
+}
+
+.textPart1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.textPart1 h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Adamina", serif;
+}
+
+.ourshopPicture {
+  display: flex;
+  gap: 44px;
+}
+
+/* ================our shop section part end================== */
