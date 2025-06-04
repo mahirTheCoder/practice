@@ -11,7 +11,12 @@
 
 
 
-
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
 
 
 .container {
@@ -116,6 +121,10 @@ ul li a:hover::before {
   font-family: "Belleza", sans-serif;
   padding-top: 94px;
   margin-bottom: 52px;
+}
+
+.text_part span {
+  color: green;
 }
 
 .text_part button {
@@ -237,7 +246,7 @@ ul li a:hover::before {
   color: #000;
   font-family: "Lora", serif;
   position: absolute;
-  bottom: 0;
+  bottom: 34px;
   left: 468px;
 }
 
@@ -264,6 +273,7 @@ ul li a:hover::before {
   font-weight: 500;
   color: #000;
   font-family: "Lora", serif;
+  margin-bottom: 37px;
 
 }
 
@@ -303,3 +313,86 @@ ul li a:hover::before {
 }
 
 /* ================our shop section part end================== */
+
+/* ================reviews sections part start =========== */
+
+#reviews {
+  margin-top: 178px;
+}
+
+.reviewsText {
+  display: flex;
+  gap: 183px;
+}
+
+.reviewsPart1 h2 {
+   width: 111px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Adamina", serif;
+  margin-bottom: 23px;
+  letter-spacing: 10%;
+}
+
+.reviewsPart1 p {
+   width: 262px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 15px;
+}
+
+.starPart {
+  display: flex;
+  gap: 17px;
+
+}
+
+.starPart ul {
+  display: flex;
+  gap: 7px;
+  padding: 0;
+}
+
+.starPart ul li {
+  color: #DEEC3C;
+}
+
+.reviewsPart1 .review {
+     width: 84px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Adamina", serif;
+  margin: 0;
+}
+
+
+.reviewsPart2 h2 {
+     width: 676px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Lora", serif;
+  margin-bottom: 59px;
+}
+
+.reviewsPart2 h3 {
+ width: 107px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Lora", serif;
+  margin-bottom: 11px;
+}
+
+.reviewsPart2 p {
+     width: 96px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 54px;
+}
