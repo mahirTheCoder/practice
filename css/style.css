@@ -11,7 +11,7 @@
 
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   outline: 0;
@@ -30,14 +30,15 @@ img {
   vertical-align: middle;
 }
 
-a{
+a {
   border: none;
   text-decoration: none;
   display: inline-block;
 
 }
 
-ul,li{
+ul,
+li {
   list-style: none;
 }
 
@@ -55,11 +56,11 @@ ul,li{
 }
 
 .items ul li a {
-font-size: 16px;
-font-weight: 400;
-font-family: "Quicksand", sans-serif;
-color: #000;
-position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Quicksand", sans-serif;
+  color: #000;
+  position: relative;
 
 
 }
@@ -75,7 +76,7 @@ position: relative;
   padding-top: 28px;
 }
 
-ul li a::before{
+ul li a::before {
   content: '';
   width: 0;
   position: absolute;
@@ -92,18 +93,19 @@ ul li a:hover::before {
 
 .icons {
   display: flex;
- gap: 33px;
+  gap: 33px;
 }
 
 .icons button {
   border: none;
- background: transparent;
+  background: transparent;
 }
 
 .icons a {
   font-size: 18px;
   color: #000;
 }
+
 /* ======================nav bar part end ===================== */
 
 
@@ -149,7 +151,7 @@ ul li a:hover::before {
 }
 
 .text_part p {
-    width: 271px;
+  width: 271px;
   font-size: 16px;
   font-weight: 400;
   color: #000;
@@ -183,9 +185,10 @@ ul li a:hover::before {
 
 /* ==============learn more section part strat====================  */
 
-#learnMore{
+#learnMore {
   margin-top: 83px;
 }
+
 .textBothe {
   display: flex;
   gap: 135px;
@@ -215,12 +218,13 @@ ul li a:hover::before {
 }
 
 .learnMore a {
-    font-size: 20px;
+  font-size: 20px;
   font-weight: 400;
   color: #000;
   font-family: "Adamina", serif;
   margin-bottom: 446px;
 }
+
 /* ==================learn more section end ================ */
 
 
@@ -260,7 +264,7 @@ ul li a:hover::before {
 }
 
 .ourShop_textPart h2 {
-    width: 130px;
+  width: 130px;
   font-size: 20px;
   font-weight: 400;
   color: #000;
@@ -269,7 +273,7 @@ ul li a:hover::before {
 }
 
 .ourShop_textPart h3 {
-    width: 526px;
+  width: 526px;
   font-size: 48px;
   font-weight: 500;
   color: #000;
@@ -327,7 +331,7 @@ ul li a:hover::before {
 }
 
 .reviewsPart1 h2 {
-   width: 111px;
+  width: 111px;
   font-size: 20px;
   font-weight: 400;
   color: #000;
@@ -337,7 +341,7 @@ ul li a:hover::before {
 }
 
 .reviewsPart1 p {
-   width: 262px;
+  width: 262px;
   font-size: 16px;
   font-weight: 400;
   color: #000;
@@ -362,7 +366,7 @@ ul li a:hover::before {
 }
 
 .reviewsPart1 .review {
-     width: 84px;
+  width: 84px;
   font-size: 13px;
   font-weight: 400;
   color: #000;
@@ -372,7 +376,7 @@ ul li a:hover::before {
 
 
 .reviewsPart2 h2 {
-     width: 676px;
+  width: 676px;
   font-size: 36px;
   font-weight: 500;
   color: #000;
@@ -381,7 +385,7 @@ ul li a:hover::before {
 }
 
 .reviewsPart2 h3 {
- width: 107px;
+  width: 107px;
   font-size: 24px;
   font-weight: 500;
   color: #000;
@@ -390,7 +394,7 @@ ul li a:hover::before {
 }
 
 .reviewsPart2 p {
-     width: 96px;
+  width: 96px;
   font-size: 16px;
   font-weight: 400;
   color: #000;
@@ -412,3 +416,106 @@ ul li a:hover::before {
   width: 780px;
   height: 774px;
 }
+
+/* ================reviews sections part end ================= */
+
+
+/* =================instagram section part start================ */
+#insttagram {
+  margin-top: 44px;
+
+}
+
+.intagramimage {
+  background-image: url(../images/frame.png);
+  height: 747px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instagramText {
+  padding-top: 72px;
+  padding-left: 116px;
+}
+
+.instagramText h2 {
+  width: 401px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Lora", serif;
+  margin-bottom: 9px;
+}
+
+.instagramText p {
+  width: 286px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 7px;
+}
+
+.checkItout {
+  display: flex;
+  gap: 20px;
+}
+
+.checkItout a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Adamina", serif;
+}
+
+.instagramPartText {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+
+.partText1 h2 {
+  width: 706px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Lora", serif;
+}
+
+.emailPart {
+  align-self: end;
+  width: 426px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #000;
+}
+
+.emailPart input {
+  border: none;
+  width: 63px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Abel", sans-serif;
+  margin-top: 18px;
+  margin-left: 7px;
+  margin-bottom: 18px;
+}
+
+.emailPart button {
+  width: 128px;
+  height: 39px;
+  background-color: #000;
+  color: white;
+  border-radius: 26px;
+  font-size: 14 px;
+  font-weight: 400;
+  font-family: "Adamina", serif;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+/* =================instagram section part send================ */
