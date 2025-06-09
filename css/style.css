@@ -517,5 +517,51 @@ ul li a:hover::before {
   margin-bottom: 8px;
 }
 
+/* =================instagram section part end================ */
 
-/* =================instagram section part send================ */
+
+/* =================footer section part start================ */
+#footer {
+  background-color: #F3F3F3;
+  height: 159px;
+}
+
+.mainRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 63px;
+}
+
+.mainRow .logoFooter img {
+  width: 123px;
+}
+
+.itemsFooter ul {
+  display: flex;
+  gap: 59px;
+}
+
+.itemsFooter ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Quicksand", sans-serif;
+}
+
+.iconsFooter {
+  display: flex;
+  gap: 60px;
+}
+
+.iconsFooter button {
+  border: none;
+  background-color: transparent;
+}
+
+.iconsFooter button a {
+  font-size: 24px;
+  color: #000;
+}
+
+/* =================footer section part end================ */
